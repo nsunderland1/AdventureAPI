@@ -19,7 +19,7 @@ GameLoader::isOpen() const
 bool
 GameLoader::getNonEmptyLine(std::string &dest)
 {
-    while (getline(mySrc, dest))
+    while (std::getline(mySrc, dest))
     {
 	auto f = [] (char c) { return std::isspace(static_cast<unsigned char>(c)); };
 
