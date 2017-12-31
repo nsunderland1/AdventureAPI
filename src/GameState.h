@@ -4,12 +4,6 @@
 #include <string>
 #include <vector>
 
-namespace std
-{
-    template <class T>
-    class initializer_list;
-}
-
 struct GameChoice
 {
 public:

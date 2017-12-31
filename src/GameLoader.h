@@ -3,11 +3,6 @@
 
 #include <fstream>
 
-namespace
-{
-    class string;
-}
-
 class GameTree;
 
 class GameLoader
